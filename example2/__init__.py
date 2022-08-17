@@ -1,0 +1,11 @@
+num=int(input("enter number : "))
+num2=int(input("enter number : "))
+sum=int(num+num2)
+sum2=int(num*num2)
+sum3=int(num-num2)
+sum4=float(num/num2)
+
+print(F"{num} + {num2}= {sum}")
+print(F"{num} - {num2}= {sum3}")
+print(F"{num} * {num2}= {sum2}")
+print(F"{num} / {num2}= {sum4}")

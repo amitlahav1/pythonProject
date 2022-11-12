@@ -1,11 +1,11 @@
 world=input("enter world:")
 world2=input("enter world:")
-list=[]
-world.split()
-world2.split()
+list1=""
+
 
 for i in world:
-    if i in world2 and i not in list:
-        list.append(i)
+    if i in world2 and i not in list1:
+        list1+=i
 
-        print(list)
+print(list1)
+print(len(list1))

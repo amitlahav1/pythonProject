@@ -11,3 +11,8 @@ sum3=float(sum4+sum)
 print(f"the deposit amount is : {sum}")
 print(f"the profit is : {sum4}")
 print(f"the all amount is : {sum3}")
+
+
+
+
+print("--------- ter2 for github")

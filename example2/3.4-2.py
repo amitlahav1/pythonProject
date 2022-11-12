@@ -8,9 +8,9 @@ while num_system!=num_user:
     count+=1
     user=input("write if the number of the system is- high or low?:")
     if user=="low":
-        num_system = randint(num_user, 100)
+        num_system = randint(num_system+1, 100)
     if user=="high":
-        num_system = randint(0, num_system+1)
+        num_system = randint(0, num_system-1)
 
     print(f" the number of system is: {num_system}")
 
